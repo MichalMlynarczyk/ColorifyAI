@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App{
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+/* -----------TITLE-PART------------- */
+.title-part{
+  width: 100%;
+  height: 15vh;
+  background-color: black;
+  display: flex;
+}
+
+.title-part .title-logo{
+  width: 20%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  animation: spin 20s linear infinite;
+}
+
+.title-part .title-title{
+  width: 60%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 200%;
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+}
+
+.title-part .title-menu{
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes spin{
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+/* -----------TITLE-PART------------- */
+
+/* -----------PHOTO-PART------------- */
+
+.photo-part{
+  width: 100%;
+  height: 70vh;
+
+  border: solid;
+  box-sizing: border-box;
+  border-width: 1px;
+  border-color: #04DAF6;
+  background: linear-gradient(to top right , #2498a8, rgb(23, 44, 48) );
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo-part .file-drop{
+  width: 150px;
+  padding: 10px;
+
+  font-size: 100%;
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  background-color: white;
+  background: rgb(18, 18, 19);
+  box-shadow: 0 0 20px #04DAF6; 
+  border-radius: 5px;
+
+}
+
+/* -----------PHOTO-PART------------- */
+
+.setting-part{
+  width: 100%;
+  height: 15vh;
+  background-color: black;
+
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.setting-part .setting-generate{
+  width: 100%;
+  height: 95%;
+
+  box-sizing: border-box;
+  padding: 2px;
+  border-style: solid;
+  border-width: 2px;
+
+  font-size: 200%;
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+}
